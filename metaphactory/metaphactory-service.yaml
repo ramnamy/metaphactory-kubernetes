@@ -17,6 +17,6 @@ spec:
 #    targetPort: 8080
   selector:
     app: metaphactory
-  type: LoadBalancer
+  type: ClusterIP
   # this is for HA use-cases
 #  sessionAffinity: ClientIP
